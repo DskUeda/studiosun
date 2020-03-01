@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+$path: "../img/";
+$key: #434343;
+$sub_0: #ffffff;
+$sub_1: #f2f2f2;
+$sub_2: #dadada;
+$sub_3: #999999;
+$sub_4: #666666;
+
+
+body {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    //position: relative;
+    color: $key;
+    background: $sub_0;
+    padding-bottom: 40px;
+    -webkit-text-size-adjust: 100%;
+    * {
+        box-sizing: border-box;
+    }
+}
+@import "parts/_00_reset.scss";
+@import "parts/_01_base.scss";
+@import "parts/_02_header.scss";
+@import "parts/_03_float_menu.scss";
+@import "parts/_04_side.scss";
+@import "parts/_05_content.scss";
+@import "parts/_06_footer.scss";
+
+@import "parts/_07_respons.scss";

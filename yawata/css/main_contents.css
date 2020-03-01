@@ -1,0 +1,6 @@
+#main_contents {
+	background-image: url(../images/main_bg.jpg);
+	background-repeat: repeat-y;
+	overflow: hidden;
+	padding-bottom: 12px;
+}

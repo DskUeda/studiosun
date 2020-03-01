@@ -1,0 +1,24 @@
+#header {
+	height: 84px;
+	overflow: hidden;
+	background-color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+}
+
+#header h1{
+	color: #000;
+	font-size: 24px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#header p{
+	color: #000;
+	font-size: 36px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 15px;
+	font-family: Impact;
+}

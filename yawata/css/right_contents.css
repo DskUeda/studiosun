@@ -1,0 +1,28 @@
+@charset "utf-8";
+#right_contents {
+	float: right;
+	margin-right: 12px;
+}
+#right_contents #twitter {
+	width: 230px;
+	height: 446px;
+	margin-top: 12px;
+}
+#right_contents #yoyaku {
+	width: 228px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #FFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+}
+#right_contents #yoyaku p {
+	text-align: center;
+}

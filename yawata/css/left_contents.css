@@ -1,0 +1,123 @@
+@charset "utf-8";
+#left_contents {
+	float: left;
+	margin-left: 12px;
+}
+#logo a {
+	text-decoration:none;
+}
+#logo a:link {
+	color:#fff;
+}
+#logo a:visited {
+	color:#fff;
+}
+#logo a:hover {
+	color:#F60;
+}
+#logo a:active {
+	color:#F60;
+}
+#logo ul li {
+	list-style-position: inside;
+	list-style-image: url(../../images/list_top.gif);
+	text-align: center;
+}
+#logo {
+	height: 230px;
+	width: 230px;
+	margin-top: 12px;
+	background-color: #333;
+}#logo p {
+	margin-left: 8px;
+	margin-bottom: 20px;
+	padding-top: 50px;
+}
+
+#new {
+	width: 228px;
+	background-image: url(../images/menu_bg.png);
+	font-size: 10px;
+	padding-bottom: 5px;
+	height: 206px;
+	overflow: auto;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+}
+#new p {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	padding-bottom: 5px;
+	border-bottom-color: #999;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+	color: #333;
+}
+#menu ul li {
+	list-style-position: inside;
+	font-size: 14px;
+	color: #333;
+	list-style-image: url(../images/list_menu.gif);
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+#menu {
+	background-image: url(../images/menu.png);
+	width: 228px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+}
+#menu a {
+	text-decoration:none;
+}
+#menu a:link {
+	color:#333;
+}
+#menu a:visited {
+	color:#333;
+}
+#menu a:hover {
+	color:#fff;
+	background-color:#333;
+}
+#menu a:active {
+	color:#fff;
+	background-color:#333;
+}
+.bar {
+	width: 228px;
+	margin-top: 12px;
+	background-color: #FFF;
+	border: 1px solid #333;
+}
+.bar p {
+	margin-left:10px;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #333;
+}
+#menu ul .dd {
+	margin-left: 20px;
+}
+#left_contents #twitter {
+	height: 446px;
+	width: 230px;
+}

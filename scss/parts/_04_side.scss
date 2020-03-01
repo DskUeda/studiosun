@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.area_side {
+    padding: 5% 2%;
+    .area_sns_link {
+        margin-bottom: 5%;
+        overflow: hidden;
+        li {
+            float: left;
+            width: 49%;
+            margin-top: 2%;
+            &:nth-child(2n) {
+                float: right;
+            }
+            &:nth-child(1), &:nth-child(2) {
+                margin-top: 0;
+            }
+            img {
+                border: 1px solid $sub_2;
+                border-radius: 4px;
+            }
+        }
+    }
+    .area_bnr {
+        overflow: hidden;
+        margin-bottom: 5%;
+        li {
+            float: left;
+            width: 49%;
+            margin-top: 2%;
+            &:nth-child(2n) {
+                float: right;
+            }
+            &:nth-child(1), &:nth-child(2) {
+                margin-top: 0;
+            }
+            img {
+                border: 1px solid $sub_2;
+                border-radius: 4px;
+            }
+        }
+    }
+    .area_tweet {
+        width: 100%;
+    }
+}

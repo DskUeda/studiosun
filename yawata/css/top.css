@@ -1,0 +1,58 @@
+.footer {
+	font-size: 10px;
+}
+#container {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.top_logo {
+	margin-bottom: 80px;
+	padding-top: 50px;
+}
+
+ul li {
+	margin-bottom: 30px;
+	color: #333;
+}
+ul li a {
+	color: #333;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration:none;
+}
+ul li a:link {
+	color:#333;
+}
+ul li a:visited {
+	color:#333;
+}
+ul li a:hover {
+	color:#FFF;
+	background-color:#333;
+}
+ul li a:active {
+	color:#333;
+}
+
+#top_footer {
+	background-color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top_headder {
+	background-color: #333;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}

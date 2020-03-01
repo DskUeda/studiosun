@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* 起動ボタン */
+#slide-btn {
+    position: fixed;
+    top: 10px;
+    right: 2%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    background: url(#{$path}btn_menu.png) no-repeat center top / cover;
+}
+/*メニュー本体*/
+#slide-menu {
+    //display: none;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background: #000;
+    z-index: 1100;
+    //opacity: .9;
+    overflow-y: scroll;
+    .close-btn {
+        //position: absolute;
+        //right: 10%;
+        //top: 10%;
+        cursor: pointer;
+        //width: 30px;
+        //height: 30px;
+        //background: url(#{$path}btn_close.png) no-repeat center top / cover;
+        padding: 2% 2% 1%;
+        span {
+            display: block;
+            padding: .8em 1em;
+            border: 1px solid #888;
+            background: #000;
+            border-radius: 4px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    ul.menu {
+        //text-align: center;
+        //display: table-cell;
+        //vertical-align: middle;
+        padding: 0 0 1%;
+        li {
+            &:not(:last-child) {
+                //margin-bottom: 5%;
+            }
+            //サブメニュー（SPは非表示）
+            p {
+                display: none;
+                //color: #fff;
+                //margin-bottom: .5em;
+                //cursor: pointer;
+            }
+            .hide_menu {
+                //display: none;
+            }
+            a {
+                display: block;
+                font-size: 12px;
+                color: $sub_1;
+                text-decoration: none;
+                //margin-bottom: .5em;
+                padding: 1% 2%;
+                span {
+                    display: block;
+                    padding: 1em 1em;
+                    //border: 1px solid #888;
+                    background: #666;
+                    border-radius: 4px;
+                    position: relative;
+                    font-weight: bold;
+                    &:before {
+                        display: inline-block;
+                        content: "";
+                        width: 4px;
+                        height: 1em;
+                        background: #333;
+                        border-radius: 5px;
+                        margin-right: .8em;
+                        vertical-align: middle;
+                    }
+                    &:after {
+                        display: block;
+                        content: "";
+                        width: 8px;
+                        height: 8px;
+                        border-top: 2px solid #333;
+                        border-right: 2px solid #333;
+                        position: absolute;
+                        right: 2%;
+                        top: 50%;
+                        transform: rotate(45deg);
+                        margin-top: -5px;
+                    }
+                }
+            }
+        }
+    }
+}
+.overlay {
+    content: '';
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.open .overlay {
+    visibility: visible;
+    background: rgba(0,0,0,.7);
+    -webkit-transition: all .5s ease;
+            transition: all .5s ease;
+    z-index: 1050;
+}

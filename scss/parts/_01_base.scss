@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* ベース
+------------------------------------------------------------*/
+small {
+    font-size: 10px;
+}
+em {
+    font-size: 125%;
+    font-style: normal;
+    font-weight: bold;
+}
+img {
+    display: block;
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+.clrfix {
+    overflow: hidden;
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+.align-l {
+    text-align: left;
+}
+.align-r {
+    text-align: right;
+}
+.align-c {
+    text-align: center;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.pc {
+    display: none;
+}
