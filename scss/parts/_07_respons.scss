@@ -289,12 +289,12 @@
         #foot_content {
             display: table;
             table-layout: fixed;
-            width: 800px;
+            width: 400px;
             margin: 0 auto 80px;;
             h2, p {
                 text-align: left;
             }
-            .foot_left {
+/*            .foot_left {
                 display: table-cell;
                 width: 50%;
                 padding: 0 50px;
@@ -305,7 +305,7 @@
                 display: table-cell;
                 width: 50%;
                 padding: 0 50px;
-            }
+            }*/
         }
         #reservation {
             right: 20px;
